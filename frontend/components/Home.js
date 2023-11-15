@@ -22,7 +22,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('http://localhost:3000/movies')
+    fetch('https://my-moviz-back-psi.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
 
